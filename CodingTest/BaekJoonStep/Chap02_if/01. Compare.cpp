@@ -1,15 +1,14 @@
 //HeoJunSang's Code
 #include<iostream>
+#include<string>
 using namespace std;
 
 int main()
 {
     int A,B;
     cin >> A >> B;
-    cout << A+B << "\n";
-    cout << A-B << "\n";
-    cout << A*B << "\n";
-    cout << A/B << "\n";
-    cout << A%B << "\n";
+    if(A>B) cout << ">";
+    else if(A<B) cout << "<";
+    else cout << "==";
     return 0;
 }
